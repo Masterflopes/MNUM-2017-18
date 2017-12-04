@@ -2,6 +2,8 @@
 
 Sistemas de equações lineares
 - Método de Khaletsky (não está a funcionar)
+- Método de Gauss-Jacobi
+- Método de Gauss-Seidal
 
 Integração numérica simples/quadratura e dupla/cubatura
 - Regra dos Trapézios
