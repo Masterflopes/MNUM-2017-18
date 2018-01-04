@@ -1,12 +1,15 @@
 # MNUM-2017-18
 
+CAPÍTULO 3
 Sistemas de equações lineares
 - Método de Khaletsky (não está a funcionar)
 
+CAPÍTULO 4
 Integração numérica simples/quadratura e dupla/cubatura
 - Regra dos Trapézios
 - Método de Simpson
 
+CAPÍTULO 5
 Integração numérica de equações diferenciais de 1ª ordem
 / Sistema de equações diferenciais de 1ª ordem
 - Método de Euler (mais simples e menos preciso)
