@@ -19,6 +19,6 @@ CAPÍTULO 6 - Optimização não linear convexa
 - Unidimensional:
   - Método da secção áurea;
 - Multidimensional:
-  Método do gradiente;
-  Método da quádrica;
-  Método de Levenberg-Maquardt.
+  - Método do gradiente;
+  - Método da quádrica;
+  - Método de Levenberg-Maquardt.
