@@ -3,12 +3,7 @@
 
 using namespace std;
 
-//Integrac‹o numerica dupla ou cubatura
-
-double f(double x) {
-	return sin(x) / pow(x, 2);
-}
-
+//Integracao numerica dupla ou cubatura
 
 double f(double x, double y) {
 	return exp(y - x);
