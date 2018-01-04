@@ -12,7 +12,6 @@ long double g(long double x, long double y, long double z) {
 }
 
 //Metodo RK4
-/*
 int main() {
 	cout << "Metodo RK4" << endl << endl;
 	long double xn = 0, yn = 1, zn = 1, h = 0.1, xnt, ynt, znt, d1, d2, d3, d4, k1, k2, k3, k4;
@@ -87,72 +86,6 @@ int main() {
 		k4 = h*g(xnt + h, ynt + d3, znt + k3);
 		yn = yn + d1 / 6 + d2 / 3 + d3 / 3 + d4 / 6;
 		zn = zn + k1 / 6 + k2 / 3 + k3 / 3 + k4 / 6;
-	} while (xn < 0.4999);
-
-	sppy = yn;
-	sppz = zn;
-	cout << endl;
-	cout << "S''y: " << yn << endl;
-	cout << "S''z: " << zn << endl;
-
-	cout << endl;
-	cout << "QCy: " << (spy - sy) / (sppy - spy) << endl;
-	cout << "Ey: " << (sppy - spy) / 15 << endl;
-
-	cout << endl;
-	cout << "QCz: " << (spz - sz) / (sppz - spz) << endl;
-	cout << "Ez: " << (sppz - spz) / 15 << endl;
-
-
-	system("pause");
-}
-*/
-
-//Metodo Euler
-int main() {
-	cout << "Metodo Euler" << endl << endl;
-	long double xn = 0, yn = 1, zn = 1, h = 0.1, xnt, ynt, znt, d1, d2, d3, d4, k1, k2, k3, k4;
-	long double sy, sz, spy, spz, sppy, sppz;
-
-	do {
-		xnt = xn;
-		ynt = yn;
-		znt = zn;
-		xn = xn + h;
-		yn = yn + h*f(xnt, ynt, znt);
-		zn = zn + h*g(xnt, ynt, znt);
-	} while (xn < 0.49999);
-
-	sy = yn;
-	sz = zn;
-	cout << "Sy: " << yn << endl;
-	cout << "Sz: " << zn << endl;
-
-	xn = 0, yn = 1, zn = 1, h = h / 2;
-	do {
-		xnt = xn;
-		ynt = yn;
-		znt = zn;
-		xn = xn + h;
-		yn = yn + h*f(xnt, ynt, znt);
-		zn = zn + h*g(xnt, ynt, znt);
-	} while (xn < 0.4999);
-
-	spy = yn;
-	spz = zn;
-	cout << endl;
-	cout << "S'y: " << yn << endl;
-	cout << "S'z: " << zn << endl;
-
-
-	xn = 0, yn = 1, zn = 1, h = h / 2;
-	do {
-		xnt = xn;
-		ynt = yn;
-		znt = zn;
-		xn = xn + h;
-		yn = yn + h*f(xnt, ynt, znt);
-		zn = zn + h*g(xnt, ynt, znt);
 	} while (xn < 0.4999);
 
 	sppy = yn;
