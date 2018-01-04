@@ -17,7 +17,7 @@ CAPÍTULO 5 - Integração numérica de equações diferenciais de 1ª orde
 
 CAPÍTULO 6 - Optimização não linear convexa
 - Unidimensional:
-  -- Método da secção áurea;
+  - Método da secção áurea;
 - Multidimensional:
   Método do gradiente;
   Método da quádrica;
