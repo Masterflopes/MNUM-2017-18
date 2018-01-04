@@ -3,6 +3,8 @@
 CAPÍTULO 3
 Sistemas de equações lineares
 - Método de Khaletsky (não está a funcionar)
+- Método de Gauss-Jacobi
+- Método de Gauss-Seidal
 
 CAPÍTULO 4
 Integração numérica simples/quadratura e dupla/cubatura
