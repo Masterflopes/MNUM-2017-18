@@ -1,4 +1,9 @@
 # MNUM-2017-18
+CAPÍTULO 2 - Resolução de equações monovariável / Resolução de sistemas de equações não lineares
+- Método da bissecção
+- Método da corda
+- Método de Newton
+- Método de Picard-Peano
 
 CAPÍTULO 3 - Sistemas de equações lineares
 - Método de Khaletsky (não está a funcionar)
