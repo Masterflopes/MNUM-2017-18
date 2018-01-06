@@ -9,10 +9,10 @@ double f (double t, double x){
 }
 
 int main () {
-    double x = 0.0, t = 1.0, h = 0.5, d1, d2, d3, d4;
+    double x = 1.0, t = 1.0, h = 0.5, d1, d2, d3, d4;
     double s, sl, sll;
 
-    cout << "1ª Integracao" << endl;
+    cout << "1ª Itegracao" << endl;
     do{
         cout << "t: " << setw(10) << t << setw(10) << "x: " << x << endl;
         s = x;
@@ -26,10 +26,10 @@ int main () {
 
     }while (t <= 1.5);
 
-    x = 0.0, t = 1.0;
+    x = 1.0, t = 1.0;
     h = h/2;
     cout << endl;
-    cout << "2ª Integracao" << endl;
+    cout << "2ª Itegracao" << endl;
     do{
         cout << "t: " << setw(10) << t << setw(10) << "x: " << x << endl;
         sl = x;
@@ -43,10 +43,10 @@ int main () {
 
     }while (t <= 1.5);
 
-    x = 0.0, t = 1.0;
+    x = 1.0, t = 1.0;
     h = h/2;
     cout << endl;
-    cout << "3ª Integracao" << endl;
+    cout << "3ª Itegracao" << endl;
     do{
         cout << "t: " << setw(10) << t << setw(10) << "x: " << x << endl;
         sll = x;
