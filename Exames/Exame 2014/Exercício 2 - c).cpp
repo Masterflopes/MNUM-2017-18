@@ -12,7 +12,7 @@ void show_matrix(double a11,double a12,double a13, double a14,double a21,double 
 }
 
 int main () {
-    double ext_exter = 0.3-(0.3*4.0);
+    double ext_exter = 0.3-(0.3*0.97263+0.3*-3.06443+0.3*0.32662+0.3*1.82038);
     double a11 =0.1,a12=0.5,a13=3.0,a14=0.25,a21=1.2,a22=0.2,a23=0.25,a24=0.2,a31=-1.0,a32=0.25,a33=0.3,a34=2.0,a41=2.0,a42=0.00001,a43=1.0,a44=0.4,b1=ext_exter,b2=ext_exter,b3=ext_exter,b4=ext_exter;
 
     show_matrix(a11,a12,a13,a14,a21,a22,a23,a24,a31,a32,a33,a34,a41,a42,a43,a44,b1,b2,b3,b4);

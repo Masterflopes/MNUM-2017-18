@@ -11,7 +11,7 @@ void show_matrix(double a11,double a12,double a13,double a21,double a22,double a
 }
 
 int main () {
-    double estabilidade_externa = (0.1-(0.1*3.0));
+    double estabilidade_externa = (0.1-(0.1*0.552949+0.1*-0.15347+0.1*-0.10655));
     double a11 =18.0,a12=-1.0,a13=1.0,a21=3.0,a22=-5.0,a23=4.0,a31=6.0,a32=8.0,a33=29.0,b1=estabilidade_externa,b2=estabilidade_externa,b3=estabilidade_externa;
 
     show_matrix(a11,a12,a13,a21,a22,a23,a31,a32,a33,b1,b2,b3);

@@ -11,7 +11,7 @@ void show_matrix(double a11,double a12,double a13,double a21,double a22,double a
 }
 
 int main () {
-    double estabilidade_externa = 0.05-(0.05*3);
+    double estabilidade_externa = 0.05-(0.05*(-15)+0.05*48+0.05*(-30));
     double a11 =1,a12=1.0/2.0,a13=1.0/3.0,a21=1.0/2.0,a22=1.0/3.0,a23=1.0/4.0,a31=1.0/3.0,a32=1.0/4.0,a33=1.0/5.0,b1=estabilidade_externa,b2=estabilidade_externa,b3=estabilidade_externa;
 
     show_matrix(a11,a12,a13,a21,a22,a23,a31,a32,a33,b1,b2,b3);
@@ -56,6 +56,6 @@ int main () {
     cout << "z: " << z << endl;
 
     //d) A incognita mais sensivel a erros de dados é z porque é a que se afasta mais, em valor absoluto, de zero.
-    
+
     return 0;
 }
