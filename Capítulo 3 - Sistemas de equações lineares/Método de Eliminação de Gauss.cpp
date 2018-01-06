@@ -2,17 +2,17 @@
 
 using namespace std;
 
-void coutmatriz(double a11, double a12, double a13, double a21, double a22, double a23, double a31, double a32, double a33, double b1, double b2, double b3) {
-    cout << a11 << " " << a12 << " " << a13 << "   " << b1 << endl;
-    cout << a21 << " " << a22 << " " << a23 << "   " << b2 << endl;
-    cout << a31 << " " << a32 << " " << a33 << "   " << b3 << endl;
+void show_matrix(double a11,double a12,double a13,double a21,double a22,double a23,double a31,double a32,double a33,double b1,double b2,double b3){
+    cout << setw(12) << a11 << setw(12) << a12 << setw(12) << a13 << setw(12) << b1 << endl;
+    cout << setw(12) << a21 << setw(12) << a22 << setw(12) << a23 << setw(12) << b2 << endl;
+    cout << setw(12) << a31 << setw(12) << a32 << setw(12) << a33 << setw(12) << b3 << endl;
 }
 
 int main() {
     double a11 = 7, a12 = 2, a13 = 0, a21 = 4, a22 = 10, a23 = 1, a31 = 5, a32 = -2, a33 = 8, b1 = -2.5721, b2 = -2.5721, b3 = -2.5721;
 
     //cout matriz inicial
-    coutmatriz(a11, a12, a13, a21, a22, a23, a31, a32, a33, b1, b2, b3);
+    show_matrix(a11,a12,a13,a21,a22,a23,a31,a32,a33,b1,b2,b3);
 
     //primeiro ponto
     a12 = a12 / a11;
@@ -46,7 +46,7 @@ int main() {
 
     //cout matriz diagonalizada
     cout << endl;
-    coutmatriz(a11, a12, a13, a21, a22, a23, a31, a32, a33, b1, b2, b3);
+    show_matrix(a11,a12,a13,a21,a22,a23,a31,a32,a33,b1,b2,b3);
     cout << endl;
 
     double x, y, z;
